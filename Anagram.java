@@ -3,7 +3,6 @@ This java program checks to see if two strings are anagrams.
 */ 
 
 import java.util.*;
-import java.sql.Timestamp;
 
 public class Anagram{
 
@@ -17,17 +16,16 @@ public static void main(String[] args){
 	String choice = scan.nextLine().trim().toUpperCase();
 	if (choice.equals("C")){
 		
-		for (int x = 0; x < 1000000; x++){
 			boolean z = isAnagramNoMap(first, second);
-		}
+		
 	System.out.println(isAnagramNoMap(first, second));
 	
 }
 	if (choice.equals("W")){
 		
-		for (int x = 0; x < 1000000; x++){
+		
 			boolean z = isAnagram(first, second);
-		}
+		
 	System.out.println(isAnagram(first, second));
 }
 }
